@@ -6,9 +6,3 @@ def swap_list(array):
     array[-1] = array[mid]
     array[mid] = temp
     return array
-
-def main():
-    arr = [3,35,11]
-    print(swap_list(arr))
-
-main()
