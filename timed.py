@@ -1,4 +1,3 @@
-from cgi import print_form
 import time
 
 def timeme(func):
