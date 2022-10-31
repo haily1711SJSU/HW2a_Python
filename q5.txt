@@ -4,7 +4,7 @@
     b. Yes
 3. If they differ answer why? if not why not?
     c. Integer a is stored in a global variable and cannot be modified
-    in function "increment_int_a". Anything variables made
-    in that function are considered local and does not change the 
+    in function "increment_int_a". Any variable made
+    in that function is considered local and does not change the 
     global variable. On the otherhand, a data structure such as a 
     list or a dictionary can have its elements modified within functions.
