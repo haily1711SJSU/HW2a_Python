@@ -1,4 +1,3 @@
-from operator import itemgetter
 def sort_dictionary(dict):
     tuples = []
     for key,value in dict.items():
