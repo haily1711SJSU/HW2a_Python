@@ -27,6 +27,3 @@ def sortTuples(tuple): #bubble sort
                 tuple[right] = tmp
             left += 1
     return tuple
-
-dict = {}
-print(sort_dictionary(dict))

@@ -8,6 +8,3 @@ def reverse_list(array):
         reversed_list.append(array[n])
         n -=1
     return reversed_list
-
-arr = [1,2,3,4,5]
-print(reverse_list(arr))
