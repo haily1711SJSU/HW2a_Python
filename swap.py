@@ -1,5 +1,7 @@
 def swap_list(array):
-    if len(array) == 0:
+    if isinstance(array, list) == False: #test if input is not an array
+        return "input is not a list"
+    if len(array) == 0: #array must not be empty for func to work
         return array
     temp = array[-1] #last element
     mid = (len(array)-1) // 2

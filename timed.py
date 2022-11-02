@@ -6,6 +6,6 @@ def timeme(func):
         start = time.time()
         func()
         ending = time.time()
-        print("Total time {0:.2f}".format(ending-start))
+        print("Total time %.2f seconds" % (ending-start))
 
     return wrapper
