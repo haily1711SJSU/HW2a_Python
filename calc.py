@@ -20,7 +20,7 @@ def calculator(input):
     # parenthesis prioritized first
     stack = [] # helps with dealing with parenthesis
     if "(" in expression:
-        for s in expression:
+        for s,i in enumerate(expression):
             if s == "(":
                 stack.append(s) #push into stack
             elif s == ")": #append the expression inside
